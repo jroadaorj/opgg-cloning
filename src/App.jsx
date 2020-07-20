@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
-import { ThemeProvider } from "@material-ui/core/styles";
+// import { ThemeProvider } from "@material-ui/core/styles";
 import Navigation from "./components/Navigation/Navigation";
 import Main from "./containers/Main/Main";
 import "./App.css";
@@ -12,7 +12,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Navigation></Navigation>
-          <Main></Main>
+          <Route path="/" exact component={Main} />
         </div>
       </BrowserRouter>
     );
