@@ -1,0 +1,18 @@
+$opgg_lightblue: #5383e8;
+$opgg_darkblue: #232f46;
+
+.Navigation {
+  background-color: $opgg_darkblue;
+
+  a {
+    background-color: $opgg_lightblue;
+    padding: 12px 17px;
+    text-align: left;
+    display: block;
+    width: 65px;
+
+    img {
+      width: 65px;
+    }
+  }
+}
