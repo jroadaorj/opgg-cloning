@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import styled from "styled-components";
-import opgg_logo from "../../assets/images/opgg_logo_white_transparent.png";
+import opgg_logo from "../../assets/images/15ff_logo_white_transparent.png";
 
 const navigation = () => {
   const NavigationDiv = styled.div`
