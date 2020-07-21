@@ -6,11 +6,11 @@ import opgg_logo from "../../assets/images/15ff_logo_white_transparent.png";
 
 const navigation = () => {
   const NavigationDiv = styled.div`
-    background-color: #232f46;
+    background-color: #eff0f3;
   `;
 
   const StyledDiv = styled.div`
-    background-color: #5383e8;
+    background-color: #ced2de;
     padding: 12px 17px;
     text-align: left;
     display: block;

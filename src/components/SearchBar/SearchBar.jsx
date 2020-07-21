@@ -34,7 +34,7 @@ class SearchBar extends Component {
     &&& {
       margin: 10px 20px 10px 0px;
       color: white;
-      background: #00a9ff;
+      background: #ced2de;
       font-size: 100%;
     }
 
